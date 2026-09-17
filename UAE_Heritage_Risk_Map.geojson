@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.762,
+                    24.218
+                ]
+            },
+            "properties": {
+                "site_name": "Al Ain Oases (UNESCO)",
+                "material": "Mudbrick/Earthen",
+                "hazard_score": 0.573,
+                "category": "Category A (Critical - Immediate Stabilization)",
+                "recommended_action": "Deploy Emergency Conservation Unit; Structural Shoring Required"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.297,
+                    25.263
+                ]
+            },
+            "properties": {
+                "site_name": "Al Fahidi Historical Neighborhood",
+                "material": "Coral Stone/Gypsum",
+                "hazard_score": 0.308,
+                "category": "Routine (Low Impact)",
+                "recommended_action": "Standard Maintenance Cycle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.353,
+                    25.439
+                ]
+            },
+            "properties": {
+                "site_name": "Al Bidyah Mosque (Fujairah)",
+                "material": "Stone/Mud",
+                "hazard_score": 0.3,
+                "category": "Routine (Low Impact)",
+                "recommended_action": "Standard Maintenance Cycle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.354,
+                    24.482
+                ]
+            },
+            "properties": {
+                "site_name": "Qasr Al Hosn (Abu Dhabi)",
+                "material": "Coral/Sea Stone",
+                "hazard_score": 0.314,
+                "category": "Routine (Low Impact)",
+                "recommended_action": "Standard Maintenance Cycle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.128,
+                    24.807
+                ]
+            },
+            "properties": {
+                "site_name": "Hatta Heritage Village",
+                "material": "Stone/Adobe",
+                "hazard_score": 0.503,
+                "category": "Category B (High - Moisture Monitoring)",
+                "recommended_action": "Install SWIR Sensors & Conduct Non-Destructive Moisture Test"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.385,
+                    25.358
+                ]
+            },
+            "properties": {
+                "site_name": "Sharjah Heart / Al Hisn",
+                "material": "Coral Stone",
+                "hazard_score": 0.264,
+                "category": "Routine (Low Impact)",
+                "recommended_action": "Standard Maintenance Cycle"
+            }
+        }
+    ]
+}

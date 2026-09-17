@@ -1,0 +1,7 @@
+Heritage Site,Material Type,Delta NDWI,SWIR Moisture,Hazard Score,Priority Category,Color,Recommended Response Action
+Al Ain Oases (UNESCO),Mudbrick/Earthen,0.292,0.625,0.573,Category A (Critical - Immediate Stabilization),#d73027,Deploy Emergency Conservation Unit; Structural Shoring Required
+Al Fahidi Historical Neighborhood,Coral Stone/Gypsum,0.13,0.089,0.308,Routine (Low Impact),#1a9850,Standard Maintenance Cycle
+Al Bidyah Mosque (Fujairah),Stone/Mud,-0.033,0.267,0.3,Routine (Low Impact),#1a9850,Standard Maintenance Cycle
+Qasr Al Hosn (Abu Dhabi),Coral/Sea Stone,0.162,0.055,0.314,Routine (Low Impact),#1a9850,Standard Maintenance Cycle
+Hatta Heritage Village,Stone/Adobe,0.503,0.256,0.503,Category B (High - Moisture Monitoring),#fdae61,Install SWIR Sensors & Conduct Non-Destructive Moisture Test
+Sharjah Heart / Al Hisn,Coral Stone,0.005,0.126,0.264,Routine (Low Impact),#1a9850,Standard Maintenance Cycle

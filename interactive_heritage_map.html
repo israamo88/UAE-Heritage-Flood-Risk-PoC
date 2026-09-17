@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a0e479f962ed248b902d48e3b0b6e47 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9a0e479f962ed248b902d48e3b0b6e47" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a0e479f962ed248b902d48e3b0b6e47 = L.map(
+                "map_9a0e479f962ed248b902d48e3b0b6e47",
+                {
+                    center: [24.8, 55.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ebdb48697e8d116aa18ca9e969c3be23 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ebdb48697e8d116aa18ca9e969c3be23.addTo(map_9a0e479f962ed248b902d48e3b0b6e47);
+        
+    
+            var circle_marker_b609a151a3535e76070a3a3bfb9b042b = L.circleMarker(
+                [24.218, 55.762],
+                {"bubblingMouseEvents": true, "color": "#d73027", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d73027", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9a0e479f962ed248b902d48e3b0b6e47);
+        
+    
+        var popup_5cc085844b7128eb038373a95e26f657 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91f06aeba676c9a1160d28f63829b844 = $(`<div id="html_91f06aeba676c9a1160d28f63829b844" style="width: 100.0%; height: 100.0%;">     <b>Al Ain Oases (UNESCO)</b><br>     <b>Material:</b> Mudbrick/Earthen<br>     <b>Hazard Score:</b> 0.573<br>     <b>Status:</b> Category A (Critical - Immediate Stabilization)<br>     <b>Action:</b> Deploy Emergency Conservation Unit; Structural Shoring Required     </div>`)[0];
+                popup_5cc085844b7128eb038373a95e26f657.setContent(html_91f06aeba676c9a1160d28f63829b844);
+            
+        
+
+        circle_marker_b609a151a3535e76070a3a3bfb9b042b.bindPopup(popup_5cc085844b7128eb038373a95e26f657)
+        ;
+
+        
+    
+    
+            var circle_marker_1f60fce386adc95a02b973389bb6ceb3 = L.circleMarker(
+                [25.263, 55.297],
+                {"bubblingMouseEvents": true, "color": "#1a9850", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1a9850", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9a0e479f962ed248b902d48e3b0b6e47);
+        
+    
+        var popup_e58382a5691dcf8439a3891f9822de4c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98c7cf7b1b91871371cd39a3b0cffc46 = $(`<div id="html_98c7cf7b1b91871371cd39a3b0cffc46" style="width: 100.0%; height: 100.0%;">     <b>Al Fahidi Historical Neighborhood</b><br>     <b>Material:</b> Coral Stone/Gypsum<br>     <b>Hazard Score:</b> 0.308<br>     <b>Status:</b> Routine (Low Impact)<br>     <b>Action:</b> Standard Maintenance Cycle     </div>`)[0];
+                popup_e58382a5691dcf8439a3891f9822de4c.setContent(html_98c7cf7b1b91871371cd39a3b0cffc46);
+            
+        
+
+        circle_marker_1f60fce386adc95a02b973389bb6ceb3.bindPopup(popup_e58382a5691dcf8439a3891f9822de4c)
+        ;
+
+        
+    
+    
+            var circle_marker_c090fe42636ab75095c823f3ecc1eba6 = L.circleMarker(
+                [25.439, 56.353],
+                {"bubblingMouseEvents": true, "color": "#1a9850", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1a9850", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9a0e479f962ed248b902d48e3b0b6e47);
+        
+    
+        var popup_82884f71464cb8ad6a09ed210797448f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4fa1d10c29806b084ddcadc7f85b1738 = $(`<div id="html_4fa1d10c29806b084ddcadc7f85b1738" style="width: 100.0%; height: 100.0%;">     <b>Al Bidyah Mosque (Fujairah)</b><br>     <b>Material:</b> Stone/Mud<br>     <b>Hazard Score:</b> 0.3<br>     <b>Status:</b> Routine (Low Impact)<br>     <b>Action:</b> Standard Maintenance Cycle     </div>`)[0];
+                popup_82884f71464cb8ad6a09ed210797448f.setContent(html_4fa1d10c29806b084ddcadc7f85b1738);
+            
+        
+
+        circle_marker_c090fe42636ab75095c823f3ecc1eba6.bindPopup(popup_82884f71464cb8ad6a09ed210797448f)
+        ;
+
+        
+    
+    
+            var circle_marker_de59972a97faee371b07cdd712798f4a = L.circleMarker(
+                [24.482, 54.354],
+                {"bubblingMouseEvents": true, "color": "#1a9850", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1a9850", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9a0e479f962ed248b902d48e3b0b6e47);
+        
+    
+        var popup_292aa3325f316d2993cf6a5ca3e736f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_04eb4b8acbfe9996067cc421cc0e311e = $(`<div id="html_04eb4b8acbfe9996067cc421cc0e311e" style="width: 100.0%; height: 100.0%;">     <b>Qasr Al Hosn (Abu Dhabi)</b><br>     <b>Material:</b> Coral/Sea Stone<br>     <b>Hazard Score:</b> 0.314<br>     <b>Status:</b> Routine (Low Impact)<br>     <b>Action:</b> Standard Maintenance Cycle     </div>`)[0];
+                popup_292aa3325f316d2993cf6a5ca3e736f4.setContent(html_04eb4b8acbfe9996067cc421cc0e311e);
+            
+        
+
+        circle_marker_de59972a97faee371b07cdd712798f4a.bindPopup(popup_292aa3325f316d2993cf6a5ca3e736f4)
+        ;
+
+        
+    
+    
+            var circle_marker_a6144ba2d53535b29ab3f00924bd052d = L.circleMarker(
+                [24.807, 56.128],
+                {"bubblingMouseEvents": true, "color": "#fdae61", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdae61", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9a0e479f962ed248b902d48e3b0b6e47);
+        
+    
+        var popup_6e4dee9095f0eace31e65de43528b8ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_72e0eda968c4c66bfb1b5d516b842055 = $(`<div id="html_72e0eda968c4c66bfb1b5d516b842055" style="width: 100.0%; height: 100.0%;">     <b>Hatta Heritage Village</b><br>     <b>Material:</b> Stone/Adobe<br>     <b>Hazard Score:</b> 0.503<br>     <b>Status:</b> Category B (High - Moisture Monitoring)<br>     <b>Action:</b> Install SWIR Sensors & Conduct Non-Destructive Moisture Test     </div>`)[0];
+                popup_6e4dee9095f0eace31e65de43528b8ce.setContent(html_72e0eda968c4c66bfb1b5d516b842055);
+            
+        
+
+        circle_marker_a6144ba2d53535b29ab3f00924bd052d.bindPopup(popup_6e4dee9095f0eace31e65de43528b8ce)
+        ;
+
+        
+    
+    
+            var circle_marker_bcd499f87a536a258ef705771d6fa751 = L.circleMarker(
+                [25.358, 55.385],
+                {"bubblingMouseEvents": true, "color": "#1a9850", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1a9850", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9a0e479f962ed248b902d48e3b0b6e47);
+        
+    
+        var popup_904cf3de74d5357efa0e98d6f51c81f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9ec04a2bb105e85242be1754c2a0599e = $(`<div id="html_9ec04a2bb105e85242be1754c2a0599e" style="width: 100.0%; height: 100.0%;">     <b>Sharjah Heart / Al Hisn</b><br>     <b>Material:</b> Coral Stone<br>     <b>Hazard Score:</b> 0.264<br>     <b>Status:</b> Routine (Low Impact)<br>     <b>Action:</b> Standard Maintenance Cycle     </div>`)[0];
+                popup_904cf3de74d5357efa0e98d6f51c81f7.setContent(html_9ec04a2bb105e85242be1754c2a0599e);
+            
+        
+
+        circle_marker_bcd499f87a536a258ef705771d6fa751.bindPopup(popup_904cf3de74d5357efa0e98d6f51c81f7)
+        ;
+
+        
+    
+</script>
+</html>
